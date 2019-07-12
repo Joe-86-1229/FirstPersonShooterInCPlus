@@ -29,7 +29,7 @@ int main()
 	DWORD dwBytesWritten = 0;	// receives the number of character actually written
 
 	
-	// map in 2D
+	// map in 2D. # stands for wall
 	std::wstring map;
 	map += L"################";
 	map += L"#..............#";
